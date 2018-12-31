@@ -14,3 +14,5 @@ You will also see any lint errors in the console.
 
 ### `Deployment URL`
 Open https://faysalzoabi.github.io/WeatherApp/
+
+### `Author: Faysal Hisham Al Zoubi`
