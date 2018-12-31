@@ -5,7 +5,7 @@ const Weather = (props) => {
     return (
       <div className="weather__info">
         {
-          props.data.temperature && <p className="weather__key">Temerature: <span>{props.data.temperature}</span></p> 
+          props.data.temperature && <p className="weather__key">Temprature: <span>{props.data.temperature}</span></p> 
         } 
         {
           props.data.city && props.data.country && <p className="weather__key">Location: 

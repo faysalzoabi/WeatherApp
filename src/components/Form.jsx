@@ -26,11 +26,9 @@ export class Form extends Component {
         <div class="container">
             <form onSubmit={this.handleClick}>
                 <div class="form-group">
-                    <label for="exampleInputEmail1">City</label>
                     <input onChange={this.handleChange} type="text" name="city" class="form-control" placeholder="City..."/>
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Country</label>
                     <input onChange={this.handleChange} type="text" name="country" class="form-control" placeholder="Country..."/>
                 </div>
                 <button class="btn btn-primary">Submit</button>
